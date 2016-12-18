@@ -1,3 +1,3 @@
 # PROYECTO_PHP
-Es un curso que ando llevando para aprender PHP
+Es un curso que ando llevando para aprender PHP <br/>
 **AYUDA PARA VER LA SINTAXIS DEL LENGUAJE PHP RAPIDAMENTE EN CASO DE OLVIDAR COMO SE ESCRIBE**
