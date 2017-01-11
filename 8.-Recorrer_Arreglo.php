@@ -1,5 +1,6 @@
 <?php
 
+//Imprime cada uno de los valores del arreglo en forma de lista en una estructura HTML.
 $meses = array(
 	'Enero', 'Febrero', 'Marzo', 'Abril',
 	'Mayo', 'Junio', 'Julio', 'Agosto', 
