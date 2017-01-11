@@ -1,23 +1,25 @@
 <?php
+// Aquí se ejemplifica lo mas básico de la condición if 
+
 /*
-if(condicion){
+if(condición){
 	//
 }
 */
-/* Operadores de comparacion
+/* Operadores de comparación
 == Igualdad
 < Menor que
 > Mayor que
 <= Menor o Igual que
 >= Mayor o igual que
 != Diferente
-! Negacion
+! Negación
 */
-/*Operadores logicos
+/*Operadores lógicos
 
-&&-Evalua que se cumpla una de las dos condiciones
-||, OR - Evalua que se cumpla al menos una condicion
-xor - Evalua que se cumpla una y solo una condicion
+&&-Evalúa que se cumpla una de las dos condiciones
+||, OR - Evalúa que se cumpla al menos una condición
+xor - Evalúa que se cumpla una y solo una condición
 
 */
 $edad =18;
