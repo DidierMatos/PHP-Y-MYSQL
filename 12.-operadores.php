@@ -3,10 +3,10 @@
 $numero = 10;
 $numero2 = 5;
 $numero3= '10';
-
+// Este operador es igual a $numero = $numero + 7;
 echo $numero += 7;
 
-
+//Operador de para decir que es idéntico
 if($numero3 === 10){
 	echo ' Es identico ' . '<br/>';
 } else {
