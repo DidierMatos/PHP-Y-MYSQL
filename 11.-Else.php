@@ -1,4 +1,6 @@
 <?php
+// Uso de las sentencias Else y Else If.
+
 /*
 if(condicion){
 	//
