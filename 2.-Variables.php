@@ -1,18 +1,18 @@
 <?php 
 
-
-//String
+//Variables Tipo String
 $nombre = 'Didier';
-//Integer
+//Variables Tipo Integer
 $numero = 7;
-//Double
+//Variables Tipo Double
 $numero_decimal = 7.7;
-//Boolean
+//Variables Tipo Booleano
 $verdadero = true;
 
 echo $nombre;
 echo $numero;
 
+//concatenación de impresión de texto
 echo "Hola $nombre";
 echo 'Hola, ' . $nombre;
 
