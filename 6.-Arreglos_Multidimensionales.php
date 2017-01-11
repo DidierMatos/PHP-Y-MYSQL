@@ -1,5 +1,5 @@
 <?php 
-
+// En este arreglo al imprimir se ubica la posicion del arreglo y luego la posicion del valor.
 $amigos = array(
 	array('Alejandro', 20),
 	array('Cesar', 21),
