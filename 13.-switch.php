@@ -1,5 +1,5 @@
 <?php
-
+// Se utiliza la estructura Switch y se compara el mismo procedimiento con condicionales.
 $mes= 'Diciembre';
 
 switch($mes){
