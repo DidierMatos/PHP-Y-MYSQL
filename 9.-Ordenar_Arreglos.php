@@ -1,5 +1,5 @@
 <?php
-
+//Se ordena meses del año y números de forma ascendente y descendente.
 $meses = array(
 	'Enero', 'Febrero', 'Marzo', 'Abril',
 	'Mayo', 'Junio', 'Julio', 'Agosto', 
