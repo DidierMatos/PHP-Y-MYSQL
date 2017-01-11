@@ -10,8 +10,11 @@ $meses = array(
 //echo count($meses);
 //Ciclo For
 for ($i = 0; $i < count($meses) ; $i++) { 
-	echo $meses[$i] . '<br />';
+	echo $meses[$i]. '<br/>';
 }
+
+echo '<br/>';
+
 //Ciclo While
 $contador = 0;
 while ( $contador < count($meses)) {
