@@ -1,9 +1,9 @@
 <?php
 // Var_Dump nos permite conocer el tipo de variable, número de carácteres y el valor de la variable.
 
-$texto = 'Carlos';
-$número = 10;
-$número2 = '5';
+$texto = 'Didier';
+$numero = 10;
+$numero2 = '5';
 $arreglo = array('Didier', 'Adriel', 'Keyli');
 $arreglo_asociativo = array('nombre' => 'Didier', 'edad' => 20);
 $boleano = false;
