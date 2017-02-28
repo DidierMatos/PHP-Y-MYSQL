@@ -5,7 +5,7 @@ $conexion = mysql_connect('localhost', 'root', '') or die ('No se pudo conectar 
 
 mysql_select_db('prueba_datos', $conexion); //agrega el nombre de la base de datos junto a la variable de conexion
 
-$resultados = mysql_query('select * from usuarios'); //permite hacer consultas
+$resultados = mysql_query('select * from usuarios'); //permite hacer consultas y tambien insertar datos a la base de datos
 
 //---------------------------------------------------------------------
 
