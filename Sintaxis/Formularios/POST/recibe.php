@@ -21,7 +21,7 @@
 #METODO POST(MISMO CODIGO DE ARRIBA SIMPLIFICADO)
 
 if (!$_POST) { //si no hay POST hace lo siguiente
-	header('location: http://localhost/PHP-Y-MYSQL/Sintaxis/Formularios/');
+	header('location: http://localhost/php-y-mysql/Sintaxis/Formularios/POST/');
 
 }
 
