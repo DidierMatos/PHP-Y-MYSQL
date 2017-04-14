@@ -6,7 +6,7 @@
 </head>
 <body>
 	
-	<form action="recibe.php" method="post"> <!-- ACTION permite mandar esa info a dicho archivo, METHOD permite elegir si ver o no ver la url en el navegador de la info que se esta enviando -->
+	<form action="recibe.php" method="get"> <!-- ACTION permite mandar esa info a dicho archivo, METHOD permite elegir si ver o no ver la url en el navegador de la info que se esta enviando -->
 
 		<input type="text" placeholder="Nombre: " name="nombre"> <!--A este input no se le agrega value(valor) ya que el campo es dinamico es decir el usuario puede escribir cualquier cosa-->
 		<br>

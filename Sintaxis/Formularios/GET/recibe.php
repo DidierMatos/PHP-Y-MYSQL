@@ -1,37 +1,31 @@
 <?php
 
-# METODO POST NOS PERMITE ACCEDER AL ARREGLO QUE JUNTA TODO EL FORMULARIO PARA ENVIAR
+# METODO GET
 
-// print_r($_POST); //print_r nos convierte en arreglo y lo imprime en pantalla
+// print_r($_GET); //print_r nos convierte en arreglo y lo imprime en pantalla
 
-
-// if ($_POST) { //si hay POST hace lo siguiente
-// $nombre = $_POST['nombre']; // la variable $_POST almacena los datos de nombre unicamente cuando se da clic al boton enviar y por lo tanto no se puede acceder por url
-// $sexo = $_POST['sexo'];
-// $year = $_POST['year'];
-// $terminos = $_POST['terminos'];
-
-// echo 'Hola, ' . $nombre . ' eres ' . $sexo; //una vez almacenados los datos en variables podemos hacer uso de ellos.
-// } else {
-// 	header('location: http://localhost/PHP-Y-MYSQL/Sintaxis/Formularios/');
-
-// }
-
-
-#METODO POST(MISMO CODIGO DE ARRIBA SIMPLIFICADO)
-
-if (!$_POST) { //si no hay POST hace lo siguiente
-	header('location: http://localhost/PHP-Y-MYSQL/Sintaxis/Formularios/');
+if (!$_GET) { //si no hay POST hace lo siguiente
+	header('location: http://localhost/php-y-mysql/Sintaxis/Formularios/GET/');
 
 }
 
-$nombre = $_POST['nombre']; // la variable $_POST almacena los datos de nombre unicamente cuando se da clic al boton enviar y por lo tanto no se puede acceder por url
-$sexo = $_POST['sexo'];
-$year = $_POST['year'];
-$terminos = $_POST['terminos'];
+$nombre = $_GET['nombre'];
+// echo htmlspecialchars($nombre); //evita inyectar codigo y lo convierte a entidades
 
-echo 'Hola, ' . $nombre . ' eres ' . $sexo; //una vez almacenados los datos en variables podemos hacer uso de ellos.
+$sexo = $_GET['sexo'];
+$year = $_GET['year'];
+$terminos = $_GET['terminos'];
 
+if ($nombre) {
+	echo $nombre . '</br>';
+}else{
+	echo 'El usuario no ingreso su nombre';
+}
+
+echo $nombre . '</br>';
+echo $sexo . '</br>';
+echo $year . '</br>';
+echo $terminos . '</br>';
 
 
 
